@@ -1,17 +1,17 @@
 # rpi-java
 
-[![dockeri.co](http://dockeri.co/image/hypriot/rpi-java)](https://registry.hub.docker.com/u/hypriot/rpi-java/)
+[![dockeri.co](http://dockeri.co/image/dordoka/rpi-java8)](https://registry.hub.docker.com/u/dordoka/rpi-java8/)
 
 Raspberry Pi compatible Docker base image with Java.
 
-Uses `openjdk-7-jre`.
+Uses ARM `oracle-java8-installer` from webupd8team. See [this](http://www.webupd8.org/2013/12/oracle-java-ppa-updated-with-arm-support.html)
 Run all the commands from within the project root directory.
 
 ### Build Details
-- [Source Project Page](https://github.com/hypriot)
-- [Source Repository](https://github.com/hypriot/rpi-java)
+- [Source Repository](https://github.com/cmoro-deusto/docker-rpi-java8)
+
 - [Dockerfile](https://github.com/hypriot/rpi-java/blob/master/Dockerfile)
-- [DockerHub] (https://registry.hub.docker.com/u/hypriot/rpi-java/)
+- [DockerHub] (https://registry.hub.docker.com/u/dordoka/rpi-java8/)
 
 
 #### Build the Docker Image
@@ -31,6 +31,8 @@ make version
 ```bash
 make push
 ```
+
+Kudos to [Hypriot](http://blog.hypriot.com/heavily-armed-after-major-upgrade-raspberry-pi-with-docker-1-dot-5-0)
 
 ## License
 
