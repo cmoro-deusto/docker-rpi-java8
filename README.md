@@ -1,4 +1,4 @@
-# rpi-java
+# docker-rpi-java8
 
 [![dockeri.co](http://dockeri.co/image/dordoka/rpi-java8)](https://registry.hub.docker.com/u/dordoka/rpi-java8/)
 
