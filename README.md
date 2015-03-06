@@ -4,13 +4,13 @@
 
 Raspberry Pi compatible Docker base image with Java.
 
-Uses ARM `oracle-java8-installer` from webupd8team. See [this](http://www.webupd8.org/2013/12/oracle-java-ppa-updated-with-arm-support.html)
+Uses ARM `oracle-java8-installer` from webupd8team. See [this](http://www.webupd8.org/2013/12/oracle-java-ppa-updated-with-arm-support.html).
+
 Run all the commands from within the project root directory.
 
 ### Build Details
 - [Source Repository](https://github.com/cmoro-deusto/docker-rpi-java8)
-
-- [Dockerfile](https://github.com/hypriot/rpi-java/blob/master/Dockerfile)
+- [Dockerfile](https://github.com/cmoro-deusto/docker-rpi-java8/blob/master/Dockerfile)
 - [DockerHub] (https://registry.hub.docker.com/u/dordoka/rpi-java8/)
 
 
@@ -38,7 +38,7 @@ Kudos to [Hypriot](http://blog.hypriot.com/heavily-armed-after-major-upgrade-ras
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Hypriot
+Copyright (c) 2015 Carlos Moro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
