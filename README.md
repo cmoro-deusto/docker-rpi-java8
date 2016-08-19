@@ -4,7 +4,7 @@
 
 Raspberry Pi compatible Docker base image with Java.
 
-Uses ARM `oracle-java8-installer` from webupd8team. See [this](http://www.webupd8.org/2013/12/oracle-java-ppa-updated-with-arm-support.html).
+Uses ARM `oracle-java8-installer` from webupd8team. See [this](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html).
 
 Run all the commands from within the project root directory.
 
